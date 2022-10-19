@@ -8,5 +8,10 @@
   display:grid;
   place-items:center;
   height:100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.App button{
+  padding: 2px 4px;
+  margin: 8px;
+}

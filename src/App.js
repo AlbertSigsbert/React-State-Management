@@ -1,6 +1,7 @@
 
-import Counter from './useReducer/Counter';
+// import Counter from './useReducer/Counter';
 import './App.css';
+import Counter from './Counter/Counter';
 
 function App() {
   return (
