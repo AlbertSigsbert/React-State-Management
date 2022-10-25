@@ -1,14 +1,8 @@
-
 // import Counter from './useReducer/Counter';
-import './App.css';
-import Counter from './Counter/Counter';
+import Counter from "./Counter/Counter";
 
 function App() {
-  return (
-    <div className="App">
-        <Counter/>
-    </div>
-  );
+  return <Counter />;
 }
 
 export default App;
