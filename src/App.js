@@ -1,8 +1,10 @@
 // import Counter from './useReducer/Counter';
-import Counter from "./Counter/Counter";
+import Cart from "./Cart/Cart";
+// import Counter from "./Counter/Counter";
 
 function App() {
-  return <Counter />;
+  return <Cart />;
+ 
 }
 
 export default App;
