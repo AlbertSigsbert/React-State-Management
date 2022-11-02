@@ -1,9 +1,9 @@
 import {
-  HiOutlineChevronUp,
-  HiOutlineChevronDown,
-  HiOutlineChevronLeft,
-  HiOutlineChevronRight,
-} from "react-icons/hi2";
+  FaChevronDown,
+  FaChevronUp,
+  FaChevronLeft,
+  FaChevronRight,
+} from "react-icons/fa";
 
 import { useDispatch } from "react-redux";
 import { removeItem, increase, decrease } from "../features/cart/cartSlice";
@@ -38,17 +38,17 @@ function CartItem({ id, name, price, img, amount }) {
             dispatch(decrease({ id }));
           }}
         >
-          <HiOutlineChevronLeft className="text-4xl" />
+          <FaChevronLeft className="text-2xl font-light text-gray-700" />
         </button>
-        <p className="text-center text-2xl text-gray-600">{amount}</p>
+        <p className="text-center text-xl text-gray-600">{amount}</p>
         <button onClick={() => dispatch(increase({ id }))}>
-          <HiOutlineChevronRight className="text-4xl" />
+          <FaChevronRight className="text-2xl font-light text-gray-700" />
         </button>
       </div>
 
       <div className="hidden md:block">
         <button onClick={() => dispatch(increase({ id }))}>
-          <HiOutlineChevronUp />
+          <FaChevronUp />
         </button>
         <p className="text-center">{amount}</p>
         <button
@@ -60,7 +60,7 @@ function CartItem({ id, name, price, img, amount }) {
             dispatch(decrease({ id }));
           }}
         >
-          <HiOutlineChevronDown />
+          <FaChevronDown />
         </button>
       </div>
     </article>
