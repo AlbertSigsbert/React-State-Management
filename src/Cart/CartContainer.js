@@ -36,7 +36,7 @@ function CartContainer(props) {
         <hr />
         <div className="flex justify-between mt-2 mb-4">
           <div>Total</div>
-          <div>${total}</div>
+          <div>${total.toFixed(2)}</div>
         </div>
 
         <div className="flex justify-center">
