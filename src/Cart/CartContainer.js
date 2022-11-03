@@ -2,7 +2,6 @@ import CartItem from "./CartItem";
 import { useSelector, useDispatch } from "react-redux";
 
 //Import the action
-import { clearCart } from "../features/cart/cartSlice";
 import { openModal } from "../features/modal/modalSlice";
 
 function CartContainer(props) {

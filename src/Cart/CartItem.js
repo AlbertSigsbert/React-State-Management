@@ -13,7 +13,7 @@ function CartItem({ id, name, price, img, amount }) {
 
   return (
     <article className="w-[60%] mx-auto flex flex-col md:flex-row flex-wrap items-center justify-between md:space-y-12">
-      <div className="w-32 md:place-self-end">
+      <div className="w-20 md:place-self-end">
         <img src={img} alt={name} className="object-contain" />
       </div>
 
